@@ -50,8 +50,8 @@ function FetchData(){
                   document.querySelector("#modal1").innerHTML=
                   `
                   <div class="modal-content">
-                    <h4>${data.name}</h4>
-                    <img src=${data.imageURL} alt="freindPicture">
+                    <h4 id="friendNameHeader">${data.name}</h4>
+                    <img id="friendImage"src=${data.imageURL} alt="freindPicture">
 
                     </div>
                   <div class="modal-footer">

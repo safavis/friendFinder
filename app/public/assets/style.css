@@ -38,3 +38,12 @@
     margin-left:25vw;
 
 }
+#friendNameHeader{
+    text-align: center;
+}
+#friendImage{
+    width: 50vw;
+    display:block;
+    margin-left:25vw;
+} 
+}
