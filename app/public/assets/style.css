@@ -1,0 +1,40 @@
+*{box-sizing: border-box}
+#container{
+    background-color: darkgray;
+    width:100vw;
+    height: 100vh; 
+    margin-top: 0;   
+}
+#survey_container{
+    text-align: center;
+}
+#mark_picture{
+    background-image: url("https://cowleyfoundation.org/wordpress/wp-content/uploads/2017/11/friend-club-4.png");
+    width:30vw;
+    height: 50vh;
+    /* margin-top: 25vh;
+    margin-left: 25vw;     */
+}
+#buttonBar{
+    height: 25vh;
+    text-align: center;
+}
+#survey_button{
+    align-self: center;
+}
+#yourName{
+    width: 50vw;
+    display:block;
+    margin-left: 25vw;
+}
+#yourImage{
+    width: 50vw;
+    display:block;
+    margin-left:25vw;
+}
+.selecting_align{
+    text-align: center;
+    width: 50vw;
+    margin-left:25vw;
+
+}

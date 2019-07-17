@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/safavis/friendFinder#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0"
   }
 }
