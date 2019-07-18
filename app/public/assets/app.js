@@ -24,6 +24,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var instances = M.Dropdown.init(elems,options);
   });
+  document.querySelector('#agreeLink').addEventListener('click',_=>{
+    console.log('agree')
+    document.querySelector("#yourName").value=''
+    document.querySelector("#yourImage").value=''
+    document.querySelectorAll('select')[0].selectedIndex=0
+    document.querySelectorAll('select')[1].selectedIndex=0
+    document.querySelectorAll('select')[2].selectedIndex=0
+    document.querySelectorAll('select')[3].selectedIndex=0
+    document.querySelectorAll('select')[4].selectedIndex=0
+    document.querySelectorAll('select')[5].selectedIndex=0
+    document.querySelectorAll('select')[6].selectedIndex=0
+    document.querySelectorAll('select')[7].selectedIndex=0
+    document.querySelectorAll('select')[8].selectedIndex=0
+    document.querySelectorAll('select')[9].selectedIndex=0
+    
+  })
   
 
 //fetch function
